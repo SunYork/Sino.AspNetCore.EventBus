@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A2D5F811-606D-4A87-98F3-0CCF8D5A4184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8BCCB7F-8C73-4043-AEB3-166D91CFF073}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sino.AspNetCore.EventBus", "src\Sino.AspNetCore.EventBus\Sino.AspNetCore.EventBus.xproj", "{98D481AF-E077-4F86-9C9A-7BC5B21493B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BD057259-CCEF-4EBA-B521-852579C6CF8A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sino.AspNetCore.EventBus.Tests", "test\Sino.AspNetCore.EventBus.Tests\Sino.AspNetCore.EventBus.Tests.xproj", "{C9F148D4-4E8D-43A7-896B-848E3D06EF7F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sino.AspNetCore.EventBus.RabbitMq", "src\Sino.AspNetCore.EventBus.RabbitMq\Sino.AspNetCore.EventBus.RabbitMq.xproj", "{CE9F2DC1-79DF-4DA3-B9EA-9FD76197CA9B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Sino.AspNetCore.EventBus.RabbitMq.Tests", "test\Sino.AspNetCore.EventBus.RabbitMq.Tests\Sino.AspNetCore.EventBus.RabbitMq.Tests.xproj", "{88604E23-394B-4974-BEF4-E565673AB464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D481AF-E077-4F86-9C9A-7BC5B21493B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D481AF-E077-4F86-9C9A-7BC5B21493B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D481AF-E077-4F86-9C9A-7BC5B21493B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D481AF-E077-4F86-9C9A-7BC5B21493B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F148D4-4E8D-43A7-896B-848E3D06EF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F148D4-4E8D-43A7-896B-848E3D06EF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F148D4-4E8D-43A7-896B-848E3D06EF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F148D4-4E8D-43A7-896B-848E3D06EF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9F2DC1-79DF-4DA3-B9EA-9FD76197CA9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9F2DC1-79DF-4DA3-B9EA-9FD76197CA9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9F2DC1-79DF-4DA3-B9EA-9FD76197CA9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9F2DC1-79DF-4DA3-B9EA-9FD76197CA9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88604E23-394B-4974-BEF4-E565673AB464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88604E23-394B-4974-BEF4-E565673AB464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88604E23-394B-4974-BEF4-E565673AB464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88604E23-394B-4974-BEF4-E565673AB464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98D481AF-E077-4F86-9C9A-7BC5B21493B9} = {A2D5F811-606D-4A87-98F3-0CCF8D5A4184}
+		{C9F148D4-4E8D-43A7-896B-848E3D06EF7F} = {BD057259-CCEF-4EBA-B521-852579C6CF8A}
+		{CE9F2DC1-79DF-4DA3-B9EA-9FD76197CA9B} = {A2D5F811-606D-4A87-98F3-0CCF8D5A4184}
+		{88604E23-394B-4974-BEF4-E565673AB464} = {BD057259-CCEF-4EBA-B521-852579C6CF8A}
+	EndGlobalSection
+EndGlobal
