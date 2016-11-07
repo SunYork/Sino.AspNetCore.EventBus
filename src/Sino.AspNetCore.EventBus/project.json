@@ -1,9 +1,9 @@
-﻿{
+{
   "version": "1.0.0-*",
 
   "dependencies": {
-    "Sino.AspNetCore.Extensions": "1.0.0",
-    "Sino.AspNetCore.BackgroundWorker": "1.0.0"
+    "Sino.AspNetCore.BackgroundWorker": "1.0.1",
+    "Sino.AspNetCore.Extensions": "1.0.1"
   },
 
   "frameworks": {
